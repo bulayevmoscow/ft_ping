@@ -3,7 +3,7 @@ project(ft_ping_my C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(ft_ping_my main.c ./lib/ft_printf/src/check_flags.c
+add_executable(ft_ping_my ./lib/ft_printf/src/check_flags.c
         ./lib/ft_printf/src/check_flags_extra.c
         ./lib/ft_printf/src/ft_itoa_external.c
         ./lib/ft_printf/src/ft_str_concat.c

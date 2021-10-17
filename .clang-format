@@ -10,7 +10,7 @@ AllowAllParametersOfDeclarationOnNextLine: false
 AllowShortBlocksOnASingleLine: Always
 AllowShortCaseLabelsOnASingleLine: false
 AllowShortFunctionsOnASingleLine: All
-AllowShortIfStatementsOnASingleLine: Always
+AllowShortIfStatementsOnASingleLine: false
 AllowShortLambdasOnASingleLine: All
 AllowShortLoopsOnASingleLine: true
 AlwaysBreakAfterReturnType: None
@@ -19,7 +19,7 @@ BreakBeforeBraces: Custom
 BraceWrapping:
   AfterCaseLabel: false
   AfterClass: false
-  AfterControlStatement: Always
+  AfterControlStatement: Never
   AfterEnum: false
   AfterFunction: false
   AfterNamespace: false
