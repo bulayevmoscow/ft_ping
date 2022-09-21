@@ -197,7 +197,7 @@ static void set_default_args()
 		perror("cannot open ttl var file");
 		exit(EXIT_FAILURE);
 	}
-	if (read(ttl_fd, arr, 15
+	if (read(ttl_fd, arr, 15) == -1)
 	{
 		perror("cannot read ttl var file");
 		exit(EXIT_FAILURE);
